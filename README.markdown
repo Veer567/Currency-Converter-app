@@ -4,7 +4,6 @@ A modern, offline Android currency converter app built with **Kotlin** using a s
 
 <p align="center">
 <img src="ScreenShot_1.jpg" alt="App Demo" width="300" height="auto" style="margin-right: 20px;"/>  
-<img src="ScreenShot_2.jpg" alt="App Demo" width="300" height="auto"style="margin-right: 20px;"/> 
 <img src="ScreenShot_3.jpg" alt="App Demo" width="300" height="auto"style="margin-right: 20px;"/> 
 </p>
 
