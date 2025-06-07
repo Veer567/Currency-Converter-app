@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <!-- Card container for a modern look -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Amount Input -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/amountInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter amount to convert"
+                android:contentDescription="Amount to convert"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/purple_500"
+                app:hintTextColor="@color/purple_700">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/amountEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Source Currency Spinner -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sourceCurrencyInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Source Currency"
+                android:contentDescription="Select source currency"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/purple_700"
+                app:hintTextColor="@color/purple_700">
+
+                <Spinner
+                    android:id="@+id/sourceCurrencySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:background="@color/black"
+                    android:contentDescription="Select source currency" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Swap Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/swapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="Swap"
+                android:textColor="@color/black"
+                android:contentDescription="Swap source and target currencies"
+                app:icon="@drawable/ic_swap"
+                app:iconTint="@color/purple_500"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+            <!-- Target Currency Spinner -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/targetCurrencyInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Target Currency"
+                android:contentDescription="Select target currency"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/purple_700"
+                app:hintTextColor="@color/purple_700">
+
+                <Spinner
+                    android:id="@+id/targetCurrencySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:background="@color/black"
+                    android:contentDescription="Select target currency" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Convert Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/convertButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Convert"
+                android:contentDescription="Convert amount to selected currency"
+                app:backgroundTint="@color/purple_500"
+                android:textColor="@color/white"
+                style="@style/Widget.MaterialComponents.Button" />
+
+            <!-- Result Text -->
+            <TextView
+                android:id="@+id/resultTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Result: "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:contentDescription="Conversion result" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
