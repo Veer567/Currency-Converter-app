@@ -2,7 +2,7 @@
 
 A modern, offline Android currency converter app built with **Kotlin** using a static currency list and exchange rates. The app features a clean, Material Design-based UI with accessibility support, allowing users to convert between various currencies seamlessly.
 
-<img src="ScreenShot_1.jpg" alt="App Demo" width="300" height="auto"/>  <img src="ScreenShot_2.jpg" alt="App Demo" width="300" height="auto"/> <img src="ScreenShot_3.jpg" alt="App Demo" width="300" height="auto"/> 
+<img src="ScreenShot_1.jpg" alt="App Demo" width="300" height="500"/>  <img src="ScreenShot_2.jpg" alt="App Demo" width="300" height="500"/> <img src="ScreenShot_3.jpg" alt="App Demo" width="300" height="500"/> 
 
 
 
