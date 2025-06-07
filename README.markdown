@@ -68,19 +68,6 @@ A modern, offline Android currency converter app built with **Kotlin** using a s
 - **`app/src/main/res/values/colors.xml`**: Color definitions for the app’s theme.
 - **`app/src/main/res/values/themes.xml`**: Material theme configuration.
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make changes and commit (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-Please ensure code follows Kotlin conventions and maintains accessibility features.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
 *Built with ❤️ using Kotlin and Android Studio.*
