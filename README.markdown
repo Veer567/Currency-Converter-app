@@ -44,8 +44,6 @@ A modern, offline Android currency converter app built with **Kotlin** using a s
 4. **Run the App**:
    - Connect an Android device or start an emulator.
    - Click `Run` in Android Studio to build and install the app.
-   - ![image](https://github.com/user-attachments/assets/ce36c437-d7de-4bba-8e64-b723a58afeae)
-
 
 ## Usage
 1. **Launch the App**:
