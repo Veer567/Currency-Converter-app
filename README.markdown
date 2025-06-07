@@ -1,7 +1,8 @@
 # Currency Converter App
 
 A modern, offline Android currency converter app built with **Kotlin** using a static currency list and exchange rates. The app features a clean, Material Design-based UI with accessibility support, allowing users to convert between various currencies seamlessly.
-![Alt Text](ScreenShot_1.jpg)
+<img src="ScreenShot_1.jpg" alt="App Demo" width="300" height="auto"/>
+
 
 
 ## Table of Contents
